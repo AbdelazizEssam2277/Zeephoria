@@ -1,0 +1,1110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+.heading{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+.house{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 20px;
+    float: left;
+}
+.heading-input{
+    border-radius: 20px;
+    margin: 10px 0 0 20px;
+    float: left;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    z-index: 4;
+    border: 0;
+    overflow: hidden;
+}
+.lense{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin:18px 0 0 30px ;
+    z-index: 5;
+}
+.heading-container{
+    position: relative;
+}
+.heading-ul li{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin-left: 3px;
+    padding: 13px;
+}
+.heading-ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+
+}
+.heading-li-contact{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.heading-underline{
+    height: 2px;
+    background-color: brown;
+    transition: 0.5s;
+    width: 0%;
+    left: 0;
+    margin-top: 3px;
+}
+.heading-ul li:hover .heading-underline{
+    width: 100%;
+}
+.heading-ul li:hover .hu8{
+    width: 61%;
+}
+.heading-dropdown{
+    width: 150px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border: solid brown 1px;
+    position: fixed;
+    right: 52px;
+    top: 40px;
+    padding: 20px 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    visibility: hidden;
+    z-index: 4;
+}
+
+.heading-div-blog{
+    width: 50px;
+    height: 20px;
+    background-color: aqua;
+    position: fixed;
+    z-index: 21;
+    margin: 200px 0 0 600px;
+    visibility: visible;
+}
+.heading-div-a a{
+    color: black;
+    text-decoration: none;
+}
+.hu{
+        height: 2px;
+    background-color: brown;
+    transition: 0.5s;
+    width: 0%;
+    left: 0;
+    margin-top: 3px;
+}
+.heading-li-blog:hover .heading-dropdown{
+    visibility: visible;
+}
+
+#hda1 a{
+    color: black;
+
+}
+#hda2 a{
+    color: black;
+
+}
+#hda3 a{
+    color: black;
+
+}
+#hda1:hover .hu1{
+    width: 80%;
+}
+#hda2:hover .hu2{
+    width: 33%;
+}
+#hda3:hover .hu3{
+    width: 83%;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+
+.agency-parent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/leiada-krozjhen-Gm3Fm73rO1o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.agency-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+.agency-h2{
+    font-size: 65px;
+    text-transform: uppercase;
+}
+.agency-content{
+    width: 60%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.agency-btn{
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: larger;
+    text-transform: capitalize;
+    border: 0;
+}
+.agency-btn2{
+    background-color: brown;
+    color: white;
+}
+.agency-p{
+    color: rgb(160, 160, 160);
+    letter-spacing: 2px;
+}
+.agency-btn:hover{
+    opacity: 0.7;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+
+.welcome{
+    width: 100%;
+    height: 90vh;
+}
+.welcome-h21{
+    margin: 100px 0 0 0px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.welcome-ul{
+    width: 150px;
+    height: 4px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 15px;
+}
+.welcome-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+    position: relative;
+}
+.welcome-content{
+    float: left;
+    width: 30%;
+    border: solid brown 1px;
+    margin-left: 5%;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.wc1{
+    margin-left: 0 ;
+}
+.welcome-icon{
+    font-size: 30px;
+    line-height: 70px;
+    color: brown;
+}
+.welcome-p{
+    opacity: 0.5;
+    text-transform: capitalize;
+}
+.welcome-content a{
+    text-decoration: none;
+    color: brown;
+    text-transform: capitalize;
+}
+
+ .welcome-content::after{
+    position: absolute;
+    content:"";
+    background-color: rgba(165, 42, 42, 0.4);
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    border-radius: 10px;
+    z-index: -1;
+ }
+ .welcome-content:hover::after{
+    width: 100%;
+    height: 100%;
+ }
+.welcome-content:hover .welcome-content-h2{
+    color: white;
+}
+.welcome-content:hover .welcome-p{
+    opacity: 1;
+}
+.welcome-content-h2{
+    text-transform: capitalize;
+}
+.welcome-content:hover a{
+    color: rgb(146, 37, 37);
+}
+.welcome-content:hover .welcome-icon{
+    color: rgb(146, 37, 37);
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+.work{
+    background-color: rgb(255, 234, 234);
+    width: 100%;
+    height: 105vh;
+    margin-top: 60px;
+    
+}
+.work-h2{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 234, 234);
+    width: 300px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.work-ul{
+    width: 100px;
+    height: 4px;
+    background-color: brown;
+    margin: auto;
+}
+.work-container{
+    width: 60%;
+    background-color: rgb(255, 234, 234);
+    margin: auto;
+
+}
+
+.work-img{
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.wimg1{
+    background-image: url(../images/Creed\ Aventus.jpeg);
+    margin-left: 0;
+    margin-top: 0;
+}
+.wimg2{
+    background-image: url(../images/Dior\ Homme\ Intense\ CGI.jpeg);
+        margin-top: 0;
+}
+.wimg3{
+    background-image: url(../images/download.jpeg);
+        margin-top: 0;
+}
+.wimg4{
+    background-image: url(../images/Imagination.jpeg);
+    margin-left: 0;
+}
+.wimg5{
+    background-image: url(../images/Initio\ parfums\ side\ effect.jpeg);
+}
+.wimg6{
+    background-image: url(../images/The\ Ultimate\ Mens\ Fragrance.jpeg);
+}
+.work-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 20px;
+    opacity: 0;
+}
+.work-img-h2{
+    color: rgb(190, 190, 190);
+
+}
+.wdai{
+    width: 50px;
+    height: 34px;
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.wdai a{
+    color: brown;
+}
+.wdai1{
+    margin-left: 58px;
+}
+.work-icon{
+    font-size: 25px;
+    line-height: 34px;
+}
+.work-img-p{
+    color: white;
+    font-size: large
+}
+.work-content:hover{
+    opacity: 1;
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+
+
+.offer-h21{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    
+}
+.offer-h2-ul{
+    background-color: brown;
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    margin-top: 10px;
+}
+.offer-container{
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height: 600px;
+    margin-top: 30px;
+}
+.offer-content{
+    width: 28%;
+    height: 200px;
+    border: solid brown 1px;
+    float: left;
+    margin-left:8% ;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 30px 15px;
+    position: relative;
+}
+.ofcon1{
+    margin-left: 0;
+}
+.ofcon2{
+    margin-top: 0;
+}
+.offer-content i{
+    font-size: 30px;
+    line-height: 30px;
+    color: brown;
+} 
+.offer-content h2{
+    font-size: 23px;
+}
+.offer-div-i{
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.offer-div-content{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+}
+.offer-content p{
+    opacity: 0.4;
+    line-height: 17px;
+}
+.offer-content::after{
+    content:"" ;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(165, 42, 42, 0.3);
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.offer-content:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.offer-content:hover h2{
+    color: rgb(158, 40, 40);
+}
+.offer-content:hover p{
+    opacity: 1;
+}
+.offer{
+    overflow: hidden;
+    height: 90vh;
+}
+.offer-content:hover i{
+    color: rgb(150, 37, 37);
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+.us{
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+}
+.us-content{
+    float: left;
+    width: 60%;
+    padding: 100px;
+}
+.us-div-img{
+    float: left;
+    width: 40%;
+    margin-bottom: 10px;
+}
+.us-h2{
+    font-size: 40px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.us-ul{
+    width: 150px;
+    height: 4px;
+    background-color: brown;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.us-p{
+    margin-top: 40px;
+    width: 600px;
+    line-height: 20px;
+    opacity: 0.3;
+    margin-bottom: 70px;
+}
+.us-div-span{
+    margin-top: 40px;
+}
+.us-span{
+    opacity: 0.5;
+}
+.us-div-span i{
+    color: brown;
+}
+.us-div-img{
+    margin-top: 80px;
+}
+.us-img{
+    width: 350px;
+    height: 500px;
+    border-radius: 5px;
+}
+.us-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+    float: left;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.us-div-dot{
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.us-dot1{
+    margin-left: 142.5px;
+    background-color: brown;
+}
+.us-dot:hover{
+    background-color: brown;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.space1{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/Vanilla\ Pods\ Natural\ FO\ -\ 25mL.jpeg);
+    background-attachment: fixed;
+    background-size:cover ;
+    overflow: hidden;
+}
+.space1-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.5);
+    overflow: hidden;
+}
+.space1-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 140px;
+}
+.space1-content{
+    float: left;
+    text-align: center;
+    margin-left: 18.18%;
+}
+.space1-content1{
+    margin-left: 0;
+}
+.space1 i{
+    font-size: 40px;
+    color: brown;
+}
+.space1 p{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.space1 span{
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/* ?/////////////////////////////////////////////////////////////////// */
+
+
+
+.table{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.table-h2{
+    text-align: center;
+    margin-top: 115px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.table-h2-ul{
+    width: 100px;
+    height: 4px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 10px;
+}
+.table-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    background-color: aqua;
+}
+.table-content{
+    width: 30%;
+    float: left;
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin-left: 5%;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+}
+.table-content1{
+    margin-left: 0;
+}
+.table-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid brown;
+    margin: auto;
+    margin-top: 20px;
+}
+.table-h31{
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: medium;
+}
+.table-h32{
+    text-transform: capitalize;    
+    margin-top: 30px;
+    font-size: medium;
+}
+.table-h33{
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: medium;
+}
+.table-btn{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    border: brown 2px solid;
+    margin-top: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+.table-price{
+    font-size: 37px;
+    margin-top: 15px;
+}
+.table-circle p{
+    font-size: 14px;
+}
+.table-category-h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.table-content::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    opacity: 0.3;
+    transition: 0.5s;
+    border-radius: 9px;
+    z-index: -1;
+}
+.table-content:hover::after{
+    height: 100%;
+}
+.table-content:hover .table-circle{
+    border: rgb(196, 28, 28) solid 2px;
+}
+.table-content:hover .table-h32{
+    color: brown;
+}
+.table-content:hover .table-h31{
+    color: brown;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
+.space2{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/I\ migliori\ profumi\ al\ sandalo\,\ il\ legno\ sensuale.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.space2-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.space2-container{
+    width: 80%;
+    margin-top: 100px;
+    overflow: hidden;
+    margin-left: 250px;
+}
+.space2-circle1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/download\ \(1\).jpeg);
+    background-size: cover;
+    background-position: 0 -30px;
+    float: left;
+}
+.space2-h2{
+    float: left;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.space2-content{
+    float: left;
+    width: 40%;
+}
+.space2-content2{
+    margin-left: 10%;
+}
+.space2-circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/UFO\ Robo\ Grendizer.jpeg);
+    background-size: cover;
+    background-position: 0 -20px;
+    float: left;
+}
+.space2-h31{
+    float: left;
+    color: rgb(190, 40, 40);
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.space2-h32{
+    float: left;
+    color: rgb(190, 40, 40);
+    margin-top: 30px;
+    margin-left: -100px;
+}
+.space2-p1{
+    margin-top: 110px;
+    text-transform: capitalize;
+    color: rgb(180, 180, 180);
+}
+.space2-p2{
+    margin-top: 90px;
+    text-transform: capitalize;
+    color: rgb(180, 180, 180);
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.team{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.team-h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.team-h2-ul{
+    width: 80px;
+    height: 4px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 10px;
+}
+.team-container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+}
+.team-content{
+    width: 30%;
+    height: 340px;
+    background-color: rgb(212, 212, 212);
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding:15px 30px;
+    text-align: center;
+    position: relative;
+}
+.team-content1{
+    margin-left:0;
+}
+.team-div-img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.team-img{
+    width: 100%;
+    height: 100%;
+}
+.team-name-h2{
+    margin-top:20px;
+    text-transform: capitalize;
+}
+.team-job-p{
+    margin-top:20px;
+    text-transform: uppercase;
+    color: rgb(104, 104, 104);
+}
+.team-div-icons{
+    position: absolute;
+    color: white;
+    background-color: brown;
+    width: 40px;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+}
+.team i{
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+}
+.team-span{
+    text-transform: uppercase;
+    color: rgb(104, 104, 104);
+    font-size: 15px;
+}
+.team-name-h23{
+    margin-bottom: 10px;
+}
+.team a{
+    text-decoration: none;
+    color: brown;
+}
+.team p{
+    text-transform: uppercase;
+    color: rgb(104, 104, 104);
+}
+.team-content::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(165, 42, 42, 0.3);
+    width: 100%;
+    height: 0;
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.team-content:hover::after{
+    height: 100%;
+}
+.team-content:hover .team-div-icons{
+    visibility: visible;
+}
+.team-content:hover p{
+    color: brown;
+}
+.team-content:hover span{
+    color:brown;
+}
+.team-content:hover a{
+    color: rgb(90, 90, 90);
+}
+.team-content:hover .team-name-h2{
+    color: white;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.news{
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+}
+.news-h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.news-h2-ul{
+    width: 100px;
+    height: 4px;
+    background-color: brown;
+    margin: 10px auto;
+}
+.news-container{
+    width: 80%;
+    height: 70%;
+    overflow: hidden;
+    margin: 60px auto;
+}
+.news-content{
+    width: 30%;
+    height: 100%;
+    border: solid 1px brown;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+}
+.news-content1{
+    margin-left: 0;
+}
+.news-img1{
+    width: 250px;
+    height: 250px;    
+    background-image: url(../images/Gta.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.news-img2{
+    width: 250px;
+    height: 250px;    
+    background-image: url(../images/˖\ ࣪⊹.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.news-img3{
+    width: 250px;
+    height: 250px;    
+    background-image: url(../images/download.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    background-position: 0px -120px;
+    
+}
+.news-div-icons{
+    width: 80%;
+    margin: 20px auto;
+}
+.news-div-icons i{
+    margin-left: 20px;
+    font-size: 18px;
+    color: brown;
+}
+.news-div-icons span{
+    margin-left: 5px;
+}
+.news-div-icons .news-i-facebook{
+    margin-left: 0px;
+}
+.news-content h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+.news-content p{
+    margin-top: 20px;
+    color: gray;
+    margin-bottom: 25px;
+}
+.news-content a{
+    text-decoration: none;
+    color: brown;
+}
+.news-content::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(165, 42, 42, 0.3);
+    transition: 0.5s;
+    border-radius: 9px;
+    z-index: -1;
+}
+.news-content:hover::after{
+    height: 100%;
+}
+.news-content:hover .news-div-icons span{
+    color: rgb(116, 31, 31);;
+}
+.news-content:hover h3{
+    color: white;
+}
+.news-content:hover p{
+    color: rgb(116, 31, 31);
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.foot{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(165, 42, 42, 0.5);
+    overflow: hidden;
+}
+.foot img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin:20px 0 0 50%;
+    transform: translate(-50%,0);
+}
+.foot-container{
+    width: 25%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.foot-div-icon{
+    background-color: brown;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    opacity: 0.7;
+}
+.foot-div-icon1{
+    margin-left: 0;
+}
+.foot-div-icon i{
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+}
+.foot-p1{
+    text-align: center;
+    color: rgb(78, 78, 78);
+    word-spacing: 1;
+    letter-spacing: 1px;
+}
+.foot-p2{
+    text-align: center;
+    color: rgb(78, 78, 78);
+    margin-top: 10px;
+    word-spacing: 1;
+    letter-spacing: 1px;
+}
+.foot-div-icon:hover{
+    opacity: 1;
+}
+.foot-copyrights{
+    text-align: center;
+    color: rgb(78, 78, 78);
+    font-size: x-small;
+    margin-top: 5px;
+}
