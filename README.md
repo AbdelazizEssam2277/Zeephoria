@@ -11,6 +11,9 @@ A static landing page for a perfume store, built with HTML5 and CSS3.
 - Team section (3 members) and news section (3 cards)
 - Footer with social media icons
 
+## Live Demo
+https://abdelazizessam2277.github.io/Zeephoria/
+
 ## Tech Stack
 HTML5, CSS3, Font Awesome
 
